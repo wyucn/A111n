@@ -1,0 +1,11 @@
+# Local credentials and environment overrides
+config.local.js
+.env
+.env.*
+!.env.example
+
+# Generated/local files
+.DS_Store
+Thumbs.db
+*.log
+
