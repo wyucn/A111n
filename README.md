@@ -2,7 +2,7 @@
 
 基于 moxt.ai 制作的节点式多模态 AI 创作画布。通过可视化连线，将文字、图片、视频和音频节点组合成可复用的内容生产工作流。
 
-![A11in 新手引导](docs/images/onboarding.png)
+![A11_1n 新手引导](docs/images/onboarding.png)
 
 ## 主要能力
 
@@ -17,8 +17,8 @@
 这是一个纯静态 Web 应用，无需构建。克隆仓库后，在项目目录启动任意静态服务器：
 
 ```powershell
-git clone https://github.com/wyucn/A111n.git
-cd A111n
+git clone https://github.com/wyucn/A11_1n.git
+cd A11_1n
 npx --yes serve@14.2.5 .
 ```
 
@@ -40,11 +40,11 @@ python -m http.server 8080
 4. 在图片节点选择模型、画幅、分辨率和提示词优化方式。
 5. 点击节点底部 **运行**。配置正确时，结果会显示在节点中并进入左侧资产库。
 
-![A11in 画布概览](docs/images/canvas-overview.png)
+![A11_1n 画布概览](docs/images/canvas-overview.png)
 
 不想从空白画布开始时，点击顶部 **模板**，可快速创建文生图、文生视频、图生视频、图文生视频、文生图再生视频或文生音频工作流。
 
-![A11in 工作流模板](docs/images/workflow-templates.png)
+![A11_1n 工作流模板](docs/images/workflow-templates.png)
 
 ## 配置 AI 生成能力
 
